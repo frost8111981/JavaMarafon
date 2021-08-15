@@ -9,9 +9,9 @@ public class Task1 {
 
         while (true) {
             String input = sc.nextLine();
-            if (input.equals("Stop")) {
+            if (input.equals("Stop"))
                 break;
-            }
+
             switch (input) {
                 case "Москва":
                 case "Владивосток":
