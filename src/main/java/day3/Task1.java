@@ -9,6 +9,9 @@ public class Task1 {
 
         while (true) {
             String input = sc.nextLine();
+            if (input.equals("Stop")) {
+                break;
+            }
             switch (input) {
                 case "Москва":
                 case "Владивосток":
@@ -30,15 +33,10 @@ public class Task1 {
                 case "Кёльн ":
                     System.out.println("Германия");
                     break;
-
-                case "Stop":
-                    break;
                 default:
                     System.out.println("Неизвестная страна");
             }
-            if (input.equals("Stop")) {
-                break;
-            }
+
         }
 
     }
