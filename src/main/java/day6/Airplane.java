@@ -21,8 +21,8 @@ public class Airplane {
                 ", длина: " + length + ", вес: " + weight + ", количество топлива в баке: " + fuel);
     }
 
-    public int fillUp(int n){
-        return fuel = fuel + n;
+    public void fillUp(int n){
+        fuel = fuel + n;
     }
 
     public void setProducer(String producer) {
