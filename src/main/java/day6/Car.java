@@ -6,7 +6,7 @@ public class Car {
     private String color;
     private String model;
 
-    Car(String model, int year, String color) {
+    public Car(String model, int year, String color) {
         this.year = year;
         this.color = color;
         this.model = model;
