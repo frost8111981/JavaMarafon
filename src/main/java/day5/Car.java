@@ -3,7 +3,7 @@ package day5;
 public class Car {
     private int year;
     private String color;
-    String model;
+    private String model;
 
     Car(String model,int year, String color){
         this.year = year;
